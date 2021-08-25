@@ -165,12 +165,6 @@ h6 {
   }
 }
 
-@media (max-width: 991.98px) {
-  .content__container {
-    max-width: 750px;
-  }
-}
-
 @media (max-width: 767.98px) {
   .content__container {
     max-width: none;
@@ -291,6 +285,19 @@ h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+}
+
+@media (max-width: 868px) {
+  .recent-posts__container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .recent-posts__container {
+    max-width: none;
+    padding: 0 10px;
+  }
 }
 
 .recent-posts__points {

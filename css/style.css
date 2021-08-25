@@ -266,6 +266,7 @@ h6 {
 }
 
 .recent-posts__wrapper {
+  background-color: #EDF7FA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
